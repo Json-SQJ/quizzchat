@@ -1,0 +1,69 @@
+.title {
+  color: white;
+  font-size: 34rpx;
+  font-family: "PingFang SC";
+  padding-top: 33rpx;
+  z-index: 99;
+}
+
+.bottom {
+  color: black;
+  font-size: 22rpx;
+  font-family: "PingFang SC";
+  bottom: 11rpx;
+  z-index: 99;
+  position: absolute;
+}
+
+.start {
+  z-index: 99;
+  height: 96rpx;
+  width: 337rpx;
+  position: absolute;
+  left: 208rpx;
+  top: 585rpx;
+}
+
+.answered {
+  z-index: 99;
+  height: 96rpx;
+  width: 337rpx;
+  position: absolute;
+  left: 208rpx;
+  top: 735rpx;
+}
+
+.btn{
+  opacity:0;
+}
+
+.scan{
+  z-index: 99;
+  height: 96rpx;
+  width: 337rpx;
+  position: absolute;
+  left: 208rpx;
+  top: 270rpx;
+}
+.pin{
+  z-index: 98;
+  height: 96rpx;
+  width: 337rpx;
+  position: absolute;
+  left: 208rpx;
+  top: 425rpx;
+  text-align: center;
+}
+input {
+  font-family:"PingFang SC";
+  font-size: 25rpx;
+}
+
+.backToIndex{
+  z-index: 98;
+  height: 96rpx;
+  width: 337rpx;
+  position: absolute;
+  left: 208rpx;
+  top: 890rpx;
+}

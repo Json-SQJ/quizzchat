@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/testList/testList",
+    "pages/analysis/analysis",
+    "pages/start/start",
+    "pages/login/login",
+    "pages/select/select"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle":"black",
+    "navigationBarTitleText": "Q趣问答"
+  }
+}

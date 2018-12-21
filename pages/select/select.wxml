@@ -1,0 +1,31 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="title">课堂答题</view>
+  <image src="../../images/bg1.jpg" class="bg" />
+   <view>
+    <image src="../../images/scan.png" class="scan"/>
+    <button class="scan btn"  loading="" disabled="" bindtap="scan">
+    </button>
+  </view>
+   <view>
+    <image src="../../images/pin.png" class="pin"/>
+    <input class="pin" placeholder="输入PIN码后点击开始答题" value="{{pin}}" bindinput='setPin'>
+    </input>
+  </view>
+  <view>
+    <image src="../../images/start.png" class="start"/>
+    <button class="start btn"  loading="" disabled="" bindtap="start">
+    </button>
+  </view>
+ <view>
+    <image src="../../images/answered.png" class="answered"/>
+    <button class="answered btn"  loading="" disabled="" bindtap="answered">
+    </button>
+  </view>
+   <view>
+    <image src="../../images/backToIndex.png" class="backToIndex"/>
+    <button class="backToIndex btn"  loading="" disabled="" bindtap="backToIndex">
+    </button>
+  </view>
+  <view class="bottom">优恩信息   版权所有</view>
+</view>

@@ -1,0 +1,16 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="title">课堂答题</view>
+  <image src="../../images/bg.jpg" class="bg" />
+  <view>
+    <image src="../../images/start.png" class="start"/>
+    <button class="start btn"  bindtap="startTest">
+    </button>
+  </view>
+ <view>
+    <image src="../../images/answered.png" class="answered"/>
+    <button class="answered btn"  loading="" disabled="" bindtap="answered">
+    </button>
+  </view>
+  <view class="bottom">优恩信息   版权所有</view>
+</view>

@@ -1,0 +1,23 @@
+<!-- index.wxml -->
+<view class="container">
+  <image src="../../images/bg3.png" class="bg" />
+  <view>
+    <image src="../../images/quizzName.png" class="nameBg" />
+    <text class="nameBg name">参与考试</text>
+  </view>
+  <view>
+    <image src="../../images/testList.png" class="panel" />
+    <text class="testName">测验名称</text>
+    <text class="testButtom">点击进入</text>
+    <view class="testArray" >
+      <view wx:for="{{array}}" >
+        <view><text class="quizzName" >{{item.quizzName}}</text></view>
+        <view><image src="../../images/enter.png" class="showAnswer" data-click="{{item.id}}" bindtap="showAnswer"/></view>
+      </view>
+    </view>
+  </view>
+  <view>
+    <image src="../../images/backToIndex.png" class="next" />
+    <button class="next btn" loading="" disabled="" bindtap="backToIndex"></button>
+  </view>
+</view>

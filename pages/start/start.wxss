@@ -1,0 +1,109 @@
+.title {
+  color: white;
+  font-size: 34rpx;
+  font-family: "PingFang SC";
+  padding-top: 33rpx;
+  z-index: 99;
+}
+
+.bottom {
+  color: black;
+  font-size: 22rpx;
+  font-family: "PingFang SC";
+  bottom: 11rpx;
+  z-index: 99;
+  position: absolute;
+}
+
+
+.btn {
+  opacity: 0;
+}
+
+.countDown {
+  color: white;
+  font-family: "PingFang SC";
+  font-size: 40rpx;
+  z-index: 99;
+  left: -240rpx;
+  top: 60rpx;
+  position: relative;
+
+}
+
+.next {
+  z-index: 98;
+  height: 96rpx;
+  width: 337rpx;
+  position: absolute;
+  left: 208rpx;
+  bottom: 99rpx;
+}
+
+.titlebg {
+  z-index: 98;
+  height: 436rpx;
+  width: 741rpx;
+  position: absolute;
+  left: 0rpx;
+  top: 230rpx;
+}
+
+.quizzName {
+  z-index: 98;
+  height: 65rpx;
+  width: 266rpx;
+  position: absolute;
+  left: 34%;
+  top: 135rpx;
+  text-align: center;
+}
+
+.name {
+  color: white;
+  font-family: "PingFang SC";
+  font-size: 35rpx;
+  line-height: 65rpx;
+}
+
+.select {
+  position: absolute;
+  height: 260rpx;
+  width: 680rpx;
+  top: 700rpx;
+}
+
+.selection{
+  position: relative;
+  left: 35%;
+  margin-top: 2%;
+  background-color: aqua;
+  width: 200rpx;
+  border-radius: 30rpx;
+  text-align: center;
+}
+
+.problem {
+  position: absolute;
+  height: 230rpx;
+  width: 500rpx;
+  top: 350rpx;
+  z-index: 99;
+  left: 120rpx;
+  text-align: center;
+  display: table;
+}
+
+.problemTitle {
+  font-family: "PingFang SC";
+  font-size: 35rpx;
+  height: 230rpx;
+  width: 500rpx;
+  vertical-align: middle;
+  display: table-cell;
+}
+.tip{
+  position: relative;
+  height: 40rpx;
+  width: 40rpx;
+}

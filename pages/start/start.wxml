@@ -1,0 +1,27 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="title">课堂答题</view>
+  <image src="../../images/bg3.png" class="bg" />
+  <text class="countDown">{{time}}</text>
+  <view>
+    <image src="../../images/quizzName.png" class="quizzName" />
+    <text class="quizzName name">{{testName}}</text>
+  </view>
+  <view>
+    <image src="../../images/titlebg.png" class="titlebg" />
+    <view class="problem">
+      <text class="problemTitle">{{questionName}}</text>
+    </view>
+  </view>
+  <!-- 四个按钮 -->
+  <view class="select">
+    <view class="selection" wx:for="{{answers}}" data-click="{{index}}" bindtap="chooseAnswer">
+      <image wx:if="{{index==select?true:false}}" src="../../images/tip.png" class="tip" />
+      {{item.selecion}}:{{item.selectionContent}}</view>
+  </view>
+  <view>
+    <image src="../../images/next.png" class="next" />
+    <button class="next btn" loading="" disabled="" bindtap="next"></button>
+  </view>
+  <view class="bottom">优恩信息 版权所有</view>
+</view>

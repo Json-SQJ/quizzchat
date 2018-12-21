@@ -1,0 +1,39 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="title">课堂答题</view>
+  <image src="../../images/bg3.png" class="bg" />
+  <view>
+    <image src="../../images/quizzName.png" class="nameBg" />
+    <text class="nameBg name">题目解析</text>
+  </view>
+  <view>
+    <text class="quizzName">{{testName}}</text>
+    <image src="../../images/select.png" class="selectProblem"/>
+    <picker bindchange="bindPickerChange" value="{{indexPicker}}" range="{{array}}">
+    <text class="selectProblem selectWord">第{{index}}题</text>
+    </picker>
+  </view>
+  <view>
+    <image src="../../images/panel.png" class="panel" />
+    <view class="problem">
+      <text class="problemTitle">我的答题情况</text>
+      <text class="answer" wx:if="{{correct}}" style="color:green">对</text>
+      <text class="answer" wx:else style="color:red">错</text>
+    </view>
+  </view>
+  <view>
+    <image src="../../images/analysis.png" class="analysis" />
+    <view class="problem">
+      <text class="problemTitle analysisTitle">{{questionTitle}}
+      </text>
+      <text class="questionAnswer ">{{answer}}</text>
+    </view>
+    <view class="analysisAnswer">
+     {{analysisAnswer}}
+    </view>
+  </view>
+  <view>
+    <image src="../../images/backToIndex.png" class="next" />
+    <button class="next btn" loading="" disabled="" bindtap="backToIndex"></button>
+</view>
+</view>
